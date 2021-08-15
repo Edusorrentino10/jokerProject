@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #1d032f;
+}
+
+.top-head {
+    background-color: #150122;
+    color: white;
+    width: 100%;
+    border-bottom: 2px solid #24013b;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-midiaSocial {
+    width: 16px;
+    margin: 3px;
+
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 950px;
+    height: 130px;
+}
+
+#logo-size {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    color: black;
+}
+
+.nav-item {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    font-family:  Helvetica, Arial, sans-serif;
+    color: white;
+}
+.nav-item:hover{
+    background-color: #4c0a01;
+    color: white;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.slider {
+    flex: 1;
+    overflow: hidden;
+    border-top: 2px solid #330802;
+}
+
+.slide-width {
+    height: 100%;
+    display: flex;
+    transition: all ease 1.3s;
+}
+
+.slide-item {
+    width: 100vw;
+    height: inherit;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0px 2px 2px #333;
+    font-size: 50px;
+    flex-direction: column;
+}
+
+.controls-slide{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    width: 100%;
+}
+
+.slide-control {
+    width: 40px;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slide-control:hover {
+    background-color: #ffffff48;
+}
+
+.seta-back {
+    width: 30px;
+    height: 30px;
+    transform: translateX(-2px);
+}
+.seta-next {
+    width: 30px;
+    height: 30px;
+    transform: translateX(2px) rotateY(180deg);
+}
+
+.slide-item h1 {
+    font-size: 38px;
+    text-shadow: 3px 3px 0px #1f032c;
+    max-width: 400px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    
+}
+
+.slide-item h2 {
+    font-size: 16px;
+    max-width: 450px;
+    text-transform: uppercase;
+}
+
+.banner-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 140px;
+    padding-right: 14px;
+    padding-left: 14px;
+    height: 45px;
+    color: white;
+    border: 1.7px solid white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.banner-button:hover {
+    background-color: #ffffff1a;
+    color: white;
+}
