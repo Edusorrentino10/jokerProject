@@ -19,7 +19,9 @@ header {
     justify-content: center;
     height: 100vh;
     flex-direction: column;
-    background-color: #1d032f;
+    background-color: #150122;
+
+
 }
 
 .top-head {
@@ -99,7 +101,6 @@ header {
     text-shadow: 0px 2px 2px #333;
     font-size: 50px;
     flex-direction: column;
-    filter: brightness(30%);
 }
 
 .controls-slide{
@@ -309,12 +310,6 @@ p {
 /* tabela */
 
 
-
-
-
-
-
-
 #gallery{display: grid; justify-content: center;}
 
 .gallery-img {
@@ -383,6 +378,23 @@ p {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 1024px) {
 
     html, body {overflow-x: hidden;}
@@ -421,9 +433,7 @@ p {
 
 
 @media screen and (max-width: 576px) {
-    .rTable{width: 94%;}
-    .rTable thead{display: none;}
-    .rTable tbody td{display: flex; flex-direction: column;}
+    
 
     html, body {overflow-x: hidden;}
     .seta-back, .seta-next {display: none;} 
@@ -431,6 +441,8 @@ p {
     .slide-control:hover {background-color: transparent;}
 
     .menu {height: 4em;}
+
+    .history-content{margin-top: 2rem;margin-bottom: 2rem;}
 
     .mobile-ranking {
         margin: auto;
@@ -443,8 +455,8 @@ p {
     .grid-one-content{padding: 100px;}
     .grid{gap: 200px};
     .grid h3 {font-size: 2rem;position: relative;padding-left: 5rem;padding-bottom: 0.4rem;color: white;}
-    .grid h3::before {font-size: 4rem; top: -7rem; left: 8.5rem; }
-    .img2, .img3{margin-right: 75px; max-width:80%;}
+    .grid h3::before {font-size: 4rem;  left: 11rem; }
+    .img2, .img3{margin-right: 18rem;top: -7em; max-width:100%;}
 
 
     /*galeria*/
