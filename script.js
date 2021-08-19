@@ -1,3 +1,5 @@
+// Slide
+
 let qtd_slides = document.querySelectorAll('.slide-item').length;
 let initalSlide = 0;
 
@@ -28,4 +30,36 @@ function atualizaMargin() {
 
 }
 
-setInterval(nextSlide, 3000);
+setInterval(nextSlide, 3000000);
+
+
+// Social Medias
+
+
+function wppHover(element) {
+    if(element.src = "./imagens/wpp.png") {
+        element.src = './imagens/wpp-hover.png';
+    }
+    
+}
+function wppOut(element) {
+    element.src = './imagens/wpp.png'
+}
+
+function youtubeHover(element) {
+    if(element.src = "./imagens/youtube.png"){
+        element.src = './imagens/youtube-hover.png';
+    }
+}
+function youtubeOut(element) {
+    element.src = './imagens/youtube.png'
+}
+
+function instaHover(element) {
+    if(element.src = "./imagens/insta.png"){
+        element.src = './imagens/insta-hover.png';
+    }
+}
+function instaOut(element) {
+    element.src = './imagens/insta.png'
+}

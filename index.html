@@ -5,28 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Joker</title>
 </head>
 <body>
 
+    <!-- Bloco 1-->
+    <!-- ver video Menu do curso Udemy-->
     <header>
         <div class="top-head">
-            <a href="#"><img class="top-midiaSocial wpp" src="./imagens/wpp.png" alt=""></a>
-            <a href="#"><img class="top-midiaSocial email" src="./imagens/youtube.png" alt=""></a>
-            <a href="#"><img class="top-midiaSocial insta" src="./imagens/insta.png" alt=""></a>
+            <a href="#"><img onmouseout="wppOut(this)" onmouseover="wppHover(this)" class="top-midiaSocial wpp" src="./imagens/wpp.png" alt=""></a>
+            <a href="https://www.youtube.com/channel/UC1o3CachnWS9QbnQw3tv1dw/featured"><img onmouseout="youtubeOut(this)" onmouseover="youtubeHover(this)" class="top-midiaSocial youtube" src="./imagens/youtube.png" alt=""></a>
+            <a href="#"><img onmouseout="instaOut(this)" onmouseover="instaHover(this)" class="top-midiaSocial insta" src="./imagens/insta.png" alt=""></a>
         </div>
-        <div class="container">
+        <div id="home" class="container">
             <div class="logo">
                 <a href="#"><img id="logo-size" src="./imagens/joker-escudo.png" alt="logo-jokersquad"></a>
             </div>
             <div class="menu">
                 <nav>
                     <ul class="nav-list">
-                        <li><a class="nav-item" href="#">HOME</a></li>
-                        <li><a class="nav-item" href="#">HOME</a></li>
-                        <li><a class="nav-item" href="#">HOME</a></li>
-                        <li><a class="nav-item" href="#">HOME</a></li>
-                        <li><a class="nav-item" href="#">HOME</a></li>
+                        <li><a class="nav-item" href="#home">HOME</a></li>
+                        <li><a class="nav-item" href="#history">HISTÓRIA</a></li>
+                        <li><a class="nav-item" href="#ranking">RANKING</a></li>
+                        <li><a class="nav-item" href="#jogadores">JOGADORES</a></li>
+                        <li><a class="nav-item" href="#gallery">GALERIA</a></li>
                         <li><a class="nav-item" href="#">HOME</a></li>
                     </ul>
                 </nav>
@@ -42,18 +47,322 @@
             <div class="slide-width">
                 <div class="slide-item" style="background-image: url(https://capricho.abril.com.br/wp-content/uploads/2019/10/coringa.gif);">
                     <h1>Joker Squad ES</h1>
-                    <h2>Família Jokers, melhor equipe do cenário dentro e fora de campo.</h2>
+                    <h2 id="subtitle">Família Jokers, melhor equipe do cenário dentro e fora de campo.</h2>
                 </div>
                 <div class="slide-item" style="background-image: url(https://i.pinimg.com/originals/3d/e4/7a/3de47a405fe9faa79d9e4f055f086e14.gif);"></div>
-                <div class="slide-item" style="background-image: url(https://pa1.narvii.com/7467/28389934e0329a314d34b23079eac38c3757301dr1-480-480_hq.gif);")></div>
+                <div class="slide-item" style="background-image: url(https://pa1.narvii.com/7467/28389934e0329a314d34b23079eac38c3757301dr1-480-480_hq.gif);"></div>
                 <div class="slide-item" style="background-image: url(https://media.giphy.com/media/YT51r1aYHUYaQ/giphy.gif);"></div>
             </div>
         </div>
     </header>
 
-    <section>
-        <h1>neymar</h1>
+    <!-- Bloco 2 -->
+    <section id="history" class="white-bg section">
+        <div class="container history-content">
+            <h2>HISTÓRIA</h2>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
     </section>
+
+
+    <!-- Bloco 3 -->
+    <section id="ranking" class="grid-one section">
+        <div class="grid-one-content">
+            <h2 class="grid-ranking">Ranking</h2>
+            <p class="grid-ranking-description">Ranking semanal do desempenho dos jogadores.</p>
+            <div class="grid">
+                <article>
+                    <h3><img class="top3-img" style="width:18rem; border-radius: 50%; border:4px solid #7171715f;" src="https://tntsports.com.br/__export/1593710390258/sites/esporteinterativo/img/2020/07/02/neymar_silencio_crop1593710203906.jpg_1359985831.jpg" alt=""></h3>
+                    <p>PSN: Neymar</p>
+                    <p>Nome: Menino</p>
+                    <p>Posição: Ponta-esquerda.</p>
+                    <p>Principais características: Drible e passe.</p>
+                    <p>Gols: 15</p>
+                    <p>Assistências: 8</p>
+                </article>
+                <article>
+                    <h3><img class="top3-img" style="width:18rem; border-radius: 50%; border:4px solid #7171715f;" src="https://www.gazetaesportiva.com/wp-content/uploads/imagem/2019/08/29/Messi-360x360.jpg" alt=""></h3>
+                    <p>PSN: Messi</p>
+                    <p>Nome: Lionel</p>
+                    <p>Posição: Meia armador</p>
+                    <p>Principais características: Drible, passe e finalização.</p>
+                    <p>Gols: 10</p>
+                    <p>Assistências: 11</p>
+                </article>
+                <article>
+                    <h3><img class="top3-img" style="width:18rem; border-radius: 50%; border:4px solid #7171715f;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxbWGkemuTuoACF0taggBeyDAKcULkt8x3i1RQ4lAWNQptb1IElrE1GoRX-ASY77C7oLY&usqp=CAU" alt=""></h3>
+                    <p>PSN: Mbappe</p>
+                    <p>Nome: Lottin</p>
+                    <p>Posição: Atacante</p>
+                    <p>Principais características: Drible e e velocidade.</p>
+                    <p>Gols: 8</p>
+                    <p>Assistências: 6</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bloco 4 -->
+    <!-- Ver video de Tabela de preços curso Udemy -->
+    <section id="jogadores" class="grid-one section">
+        <div class="divTable-responsive">
+            <table class="rTable">
+                <caption>Jogadores do elenco</caption>
+                <thead>
+                    <tr>
+                        <th>-</th>
+                        <th>Posição</th>
+                        <th>PSN</th>
+                        <th>Jogos</th>
+                        <th>Gols</th>
+                        <th>Assistências</th>
+                        <th>Desarmes</th>
+                        <th>Defesas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>Goleiro</td>
+                        <td>Kardeck</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="1">Testando</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+
+
+    <!-- Bloco 5-->
+    <section id="gallery" class="grid-one section">
+        <h2>GALERIA</h2>
+        <div class="grid-one-content black-color-white-bg">
+            <div class="grid">
+                <div class="gallery-img">
+                    
+                    <img src="http://source.unsplash.com/random/360x360?r=1" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=2" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=3" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=4" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=5" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=6" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
 
     <script src="./script.js"></script>
 </body>
