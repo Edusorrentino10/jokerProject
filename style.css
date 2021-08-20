@@ -445,7 +445,7 @@ p {
     html, body {overflow-x: hidden;}
     .seta-back, .seta-next {display: none;} 
     .slide-control {height: 40vh; border-radius: 0;}
-    .slide-control:hover {background-color: yellow;}
+    .slide-control:hover {background-color: transparent;}
 
     .nav-item{position: relative; margin-left: auto; margin-right: auto;display: inline-block; margin: 0 10px;}
 
@@ -477,7 +477,7 @@ p {
 
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 834px) {
     
 
     html, body {overflow-x: hidden;}
@@ -534,12 +534,10 @@ p {
     /* .nav-list{display: none;}
     .mobile-menu{display: flex;} */
     
- 
-    .nav-list {
+
+    .nav-list {     
         flex-direction: column;
         background-color: yellow;
- 
-        
     }
     header {
         height: auto;
@@ -588,12 +586,14 @@ p {
 
 }
 
+@media screen and (max-width: 375px) {
 
-
-
-
-
-
-
-
+    .nav-item,.nav-list {
+        background: tomato;
+        transform: translateX(1000px);
+    }
+    .menu-mobile {
+        transform: translateX(1rem);
+    }
+}
 
