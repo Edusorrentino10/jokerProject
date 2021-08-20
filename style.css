@@ -348,30 +348,63 @@ p {
 
 
 
-
+.divTable-responsive {
+    overflow: hidden;
+    overflow-x: auto;
+}
 
 .rTable {
     margin:auto;
     text-align: center;
-    width: 90%;
+    min-width: 360px;
+    width: 50%;
+    border-collapse: collapse;
 }
 
 .rTable thead {
-    background-color: black;
+    background-color: #150122;
     font-weight: bold;
     color: white;
 }
 .rTable tr:nth-child(2n){
-    background-color: #ccc;
+    background-color: #cccccc1a;
+    
 }
 .rTable th, .rTable td {
-    padding:10px
+    padding: 0.7rem;
+   
+}
+.rTable caption {
+    font-style: italic;
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 0.5rem;
 }
 
 
 
+/* Largura da barra de rolagem */
+ ::-webkit-scrollbar {
+    width: 10px;
+}
 
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track-piece {
+    background-color: #EEE;
+    border-left: 1px solid #CCC
+}
 
+/* Cor do indicador de rolagem */
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #BAC0C4
+}
+
+/* Cor do indicador de rolagem - ao passar o mouse */
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background-color: #717171
+}
 
 
 
@@ -486,9 +519,14 @@ p {
 
     /*galeria*/
 
-
+    /* .nav-list{display: none;}
+    .mobile-menu{display: flex;} */
     
+ 
+
+
 }
+
 
 
 
