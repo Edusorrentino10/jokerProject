@@ -63,3 +63,41 @@ function instaHover(element) {
 function instaOut(element) {
     element.src = './imagens/insta.png'
 }
+
+
+
+
+
+
+
+
+// Menu Mobile
+
+
+let mobileContent = document.querySelector('.menu-mobile-content');
+let menuMobile = document.querySelector('.menu-mobile');
+let controlsSlide = document.querySelector('.controls-slide');
+
+function menuMobileClick() {
+    
+
+
+
+
+
+    mobileContent.style.display = "flex";
+    menuMobile.style.display = "none";
+    controlsSlide.style.display = "none";
+
+
+
+    // Criar elemento html la no html com os menus, mas com display none;
+    // Quando clicar no menumobile, mudar o display do elemento criado
+    // Quando clicar em algum item do menu voltar pra display none e ir pra seção clicada.
+}
+
+function closeMobile() {
+    mobileContent.style.display = "none";
+    menuMobile.style.display = "flex";
+    controlsSlide.style.display = "flex";
+}

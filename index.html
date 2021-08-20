@@ -14,6 +14,20 @@
 
     <!-- Bloco 1-->
     <!-- ver video Menu do curso Udemy-->
+    
+    <div class="menu-mobile-content">
+        <nav>
+            <div class="x-mobile" onclick="closeMobile()">X</div>
+            <ul class="menu-mobile-list">
+                <li><a class="nav-mobile-item" href="#home">HOME</a></li>
+                <li><a class="nav-mobile-item" href="#history">HISTÓRIA</a></li>
+                <li><a class="nav-mobile-item" href="#ranking">RANKING</a></li>
+                <li><a class="nav-mobile-item" href="#jogadores">JOGADORES</a></li>
+                <li><a class="nav-mobile-item" href="#gallery">GALERIA</a></li>
+                <li><a class="nav-mobile-item" href="#">HOME</a></li>
+            </ul>
+        </nav>
+    </div>
     <header>
         <div class="top-head">
             <a href="#"><img onmouseout="wppOut(this)" onmouseover="wppHover(this)" class="top-midiaSocial wpp" src="./imagens/wpp.png" alt=""></a>
@@ -23,6 +37,12 @@
         <div id="home" class="container">
             <div class="logo">
                 <a href="#"><img id="logo-size" src="./imagens/joker-escudo.png" alt="logo-jokersquad"></a>
+            </div>
+
+            <div class="menu-mobile" onclick="menuMobileClick()">
+                <div class="mm-line"></div>
+                <div class="mm-line"></div>
+                <div class="mm-line"></div>
             </div>
 
             <div class="menu">
@@ -38,12 +58,12 @@
                 </nav>
             </div>
         </div>
-
+    </header>
 
         <div class="slider">
             <div class="controls-slide">
-                <div id="c-back" class="slide-control" onclick="backSlide()"><img class="seta-back" src="./imagens/seta-slider.png" alt=""></div>
-                <div id="c-next" class="slide-control" onclick="nextSlide()"><img class="seta-next" src="./imagens/seta-slider.png" alt=""></div>
+                <div id="c-back" class="slide-control" onclick="backSlide()"></div>
+                <div id="c-next" class="slide-control" onclick="nextSlide()"></div>
             </div>
             <div class="slide-width">
                 <div class="slide-item" style="background-image: url(./imagens/tophead-teste.PNG);">
@@ -55,7 +75,8 @@
                 <div class="slide-item" style="background-image: url(https://media.giphy.com/media/YT51r1aYHUYaQ/giphy.gif);"></div>
             </div>
         </div>
-    </header>
+    
+    
 
     <!-- Bloco 2 -->
     <section id="history" class="white-bg section">
