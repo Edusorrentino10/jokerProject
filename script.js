@@ -77,19 +77,15 @@ function instaOut(element) {
 let mobileContent = document.querySelector('.menu-mobile-content');
 let menuMobile = document.querySelector('.menu-mobile');
 let controlsSlide = document.querySelector('.controls-slide');
+let apoiase = document.querySelector('.c-button');
 
 function menuMobileClick() {
-    
-
-
-
-
 
     mobileContent.style.display = "flex";
     menuMobile.style.display = "none";
     controlsSlide.style.display = "none";
-
-
+    apoiase.style.display = "none";
+    
 
     // Criar elemento html la no html com os menus, mas com display none;
     // Quando clicar no menumobile, mudar o display do elemento criado
@@ -100,4 +96,5 @@ function closeMobile() {
     mobileContent.style.display = "none";
     menuMobile.style.display = "flex";
     controlsSlide.style.display = "flex";
+    apoiase.style.display = "flex";
 }
