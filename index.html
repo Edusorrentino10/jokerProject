@@ -17,12 +17,12 @@
     
     <div class="menu-mobile-content">
         <nav>
-            <div class="x-mobile" onclick="closeMobile()">X</div>
+            <div class="x-mobile" onclick="closeMobile()">&times;</div>
             <ul class="menu-mobile-list">
                 <li><a class="nav-mobile-item" href="#home">HOME</a></li>
                 <li><a class="nav-mobile-item" href="#history">HISTÓRIA</a></li>
                 <li><a class="nav-mobile-item" href="#ranking">RANKING</a></li>
-                <li><a class="nav-mobile-item" href="#jogadores">JOGADORES</a></li>
+                <li><a class="nav-mobile-item" href="#jogadores">ESTATÍSTICAS</a></li>
                 <li><a class="nav-mobile-item" href="#gallery">GALERIA</a></li>
                 <li><a class="nav-mobile-item" href="#">HOME</a></li>
             </ul>
@@ -51,7 +51,7 @@
                         <li><a class="nav-item" href="#home">HOME</a></li>
                         <li><a class="nav-item" href="#history">HISTÓRIA</a></li>
                         <li><a class="nav-item" href="#ranking">RANKING</a></li>
-                        <li><a class="nav-item" href="#jogadores">JOGADORES</a></li>
+                        <li><a class="nav-item" href="#jogadores">ESTATÍSTICAS</a></li>
                         <li><a class="nav-item" href="#gallery">GALERIA</a></li>
                         <li><a class="nav-item" href="#">HOME</a></li>
                     </ul>
@@ -103,7 +103,7 @@
     <section id="ranking" class="grid-one section">
         <div class="grid-one-content">
             <h2 class="grid-ranking mobile-ranking">Ranking</h2>
-            <p class="grid-ranking-description mobile-description">Ranking semanal dos jogadores.</p>
+            <p class="grid-ranking-description mobile-description">Ranking mensal dos jogadores com os melhores desempenho.</p>
             <div class="grid">
                 <article>
                     <h3></h3><img class="top3-img img1" src="https://tntsports.com.br/__export/1593710390258/sites/esporteinterativo/img/2020/07/02/neymar_silencio_crop1593710203906.jpg_1359985831.jpg" alt=""></h3>
@@ -166,12 +166,12 @@
                 <caption>Jogadores do elenco</caption>
                 <thead>
                     <tr>
-                        <th>-</th>
+                        <th>N°</th>
                         <th>Posição</th>
                         <th>PSN</th>
                         <th>Jogos</th>
                         <th>Gols</th>
-                        <th>Assistências</th>
+                        <th>Assistências: </th>
                         <th>Desarmes</th>
                         <th>Defesas</th>
                     </tr>
@@ -180,29 +180,9 @@
                 <!-- Kardeck -->
                 <tbody>
                     <tr>
-                        <td>1</td>
-                        <td>Goleiro</td>
-                        <td><button class="open-modal" id="button-kardeck" onclick="abrirModal(this)">Kardeck</button></td>
                         <td>12</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>29</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
                         <td>Goleiro</td>
-                        <td><button class="open-modal" id="button-edwardblake" onclick="abrirModal(this)">EdwardBlake</button></td>
-                        <td>12</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>29</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
+                        <td><button class="open-modal" id="button-kardeck" onclick="abrirModal(this)">Kardeck47</button></td>
                         <td>12</td>
                         <td>0</td>
                         <td>0</td>
@@ -211,138 +191,8 @@
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
-                        <td>12</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>29</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
-                        <td>12</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>29</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
-                        <td>12</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>29</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
-                        <td>12</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>29</td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
-                        <td>12</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>29</td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
-                        <td>12</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>29</td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
-                        <td>12</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>29</td>
-                    </tr>
-                    <tr>
-                        <td>11</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
-                        <td>12</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>29</td>
-                    </tr>
-                    <tr>
-                        <td>12</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
-                        <td>12</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>29</td>
-                    </tr>
-                    <tr>
-                        <td>13</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
-                        <td>12</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>29</td>
-                    </tr>
-                    <tr>
-                        <td>14</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
-                        <td>12</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>29</td>
-                    </tr>
-                    <tr>
-                        <td>15</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
-                        <td>12</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>29</td>
-                    </tr>
-                    <tr>
-                        <td>16</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
-                        <td>12</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>29</td>
-                    </tr>
-                    <tr>
-                        <td>17</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
+                        <td>Zagueiro</td>
+                        <td><button class="open-modal" id="button-edwardblake" onclick="abrirModal(this)">Edwardblake35</button></td>
                         <td>12</td>
                         <td>0</td>
                         <td>0</td>
@@ -351,18 +201,8 @@
                     </tr>
                     <tr>
                         <td>18</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
-                        <td>12</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>29</td>
-                    </tr>
-                    <tr>
-                        <td>19</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
+                        <td>Zagueiro</td>
+                        <td><button class="open-modal" id="button-gabrielbs18" onclick="abrirModal(this)">GabrielBS18</button></td>
                         <td>12</td>
                         <td>0</td>
                         <td>0</td>
@@ -371,8 +211,158 @@
                     </tr>
                     <tr>
                         <td>20</td>
-                        <td>Goleiro</td>
-                        <td>Kardeck</td>
+                        <td>Zagueiro</td>
+                        <td><button class="open-modal" id="button-suricato" onclick="abrirModal(this)">SURICATOBR13</button></td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>Zagueiro</td>
+                        <td><button class="open-modal" id="button-amzol" onclick="abrirModal(this)">amzol</button></td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>27</td>
+                        <td>Volante</td>
+                        <td><button class="open-modal" id="button-sandrojr" onclick="abrirModal(this)">Sandro_jr17</button></td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Volante</td>
+                        <td><button class="open-modal" id="button-cicco" onclick="abrirModal(this)">vCicco__06</button></td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>Volante</td>
+                        <td><button class="open-modal" id="button-rai" onclick="abrirModal(this)">RaiNicolau</button></td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Volante</td>
+                        <td><button class="open-modal" id="button-yan" onclick="abrirModal(this)">Yantrembala_fjv</button></td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>32</td>
+                        <td>Meia-direita</td>
+                        <td><button class="open-modal" id="button-DL" onclick="abrirModal(this)">DL323232</button></td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>88</td>
+                        <td>Meia-direita</td>
+                        <td><button class="open-modal" id="button-bruninho" onclick="abrirModal(this)">b_ribeiro00</button></td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>89</td>
+                        <td>Meia-direita</td>
+                        <td><button class="open-modal" id="button-leoReis" onclick="abrirModal(this)">zLeoReis</button></td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>Meia-esquerda</td>
+                        <td><button class="open-modal" id="button-zilla" onclick="abrirModal(this)">MTG_YTZilla</button></td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>80</td>
+                        <td>Meia-esquerda</td>
+                        <td><button class="open-modal" id="button-ronaldinho" onclick="abrirModal(this)">RD-LucasBR</button></td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Meia armador</td>
+                        <td><button class="open-modal" id="button-raulMazarim" onclick="abrirModal(this)">raulmazarim_</button></td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>22</td>
+                        <td>Meia armador</td>
+                        <td><button class="open-modal" id="button-asafe" onclick="abrirModal(this)">asafe0006</button></td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Atacante</td>
+                        <td><button class="open-modal" id="button-luizAndrade" onclick="abrirModal(this)">Itz_LuizAndrade</button></td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Atacante</td>
+                        <td><button class="open-modal" id="button-mik" onclick="abrirModal(this)">MIK_RhR</button></td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Atacante</td>
+                        <td><button class="open-modal" id="button-jhon" onclick="abrirModal(this)">Jhon_03xX</button></td>
                         <td>12</td>
                         <td>0</td>
                         <td>0</td>
@@ -384,16 +374,302 @@
         </div>
     </section>
 
-    <!-- PERFIL/MODAL-->
+    <!-- PERFIL/MODAL -->
     <div class="bg-modal" id="modal">
         <div class="modal">
             <span class="close" onclick="fecharModal()">&times;</span>
             <div id="modalKardeck">
-                <img src="./imagens/insta-hover.png" alt="">
+                <h2>Júlio Cesar</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        
+                        <p><strong>POSIÇÃO: </strong>Goleiro</p>
+                        <p><strong>JOGOS: </strong>101</p>
+                        <p><strong>DEFESAS: </strong> 213</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>3</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Defesa de penalti e posicionamento.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-kardeck.jpeg" alt="">
+                </div>
             </div>
             <div id="modalEdwardBlake">
-                <img src="./imagens/wpp-hover.png" alt="">
+                <h2>Márcio Nogueira</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Zagueiro</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>DESARMES: </strong> 21</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>3</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Bolas aéreas e divididas.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-leoReis.PNG" alt="">
+                </div>
             </div>
+            <div id="modalGabrielbs18">
+                <h2>Gabriel Borges</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Zagueiro</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>DESARMES: </strong> 19</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>4</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>posicionamento e interceptações.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-leoReis.PNG" alt="">
+                </div>
+            </div>
+            <div id="modalSuricato">
+                <h2>SURICATO</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Zagueiro</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>DESARMES: </strong> 20</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>5</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Bolas aéreas e interceptações.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-suricato.PNG" alt="">
+                </div>
+            </div>
+            <div id="modalAmzol">
+                <h2>amzol</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Zagueiro</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>DESARMES: </strong> 21</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>3</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Bolas aéreas e divididas.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-leoReis.PNG" alt="">
+                </div>
+            </div>
+            <div id="modalSandrojr">
+                <h2>Sandro_jr17</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Volante</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>DESARMES: </strong> 21</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>3</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Bolas aéreas e divididas.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-leoReis.PNG" alt="">
+                </div>
+            </div>
+            <div id="modalCicco">
+                <h2>Cicco</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Volante</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>DESARMES: </strong> 21</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>3</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Bolas aéreas e divididas.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-leoReis.PNG" alt="">
+                </div>
+            </div>
+            <div id="modalRai">
+                <h2>RaiNicolau</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Volante</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>3</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Bolas aéreas e divididas.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-leoReis.PNG" alt="">
+                </div>
+            </div>
+            <div id="modalYan">
+                <h2>Yan</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Volante</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>3</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Bolas aéreas e divididas.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-leoReis.PNG" alt="">
+                </div>
+            </div>
+            <div id="modalDL">
+                <h2>Brendon</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Meia-direita</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>3</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Bolas aéreas e divididas.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-leoReis.PNG" alt="">
+                </div>
+            </div>
+            <div id="modalBruninho">
+                <h2>Bruninho</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Meia-direita</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>3</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Bolas aéreas e divididas.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-leoReis.PNG" alt="">
+                </div>
+            </div>
+            <div id="modalLeoReis">
+                <h2>Leo Reis</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Meia-direita</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>3</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Bolas aéreas e divididas.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./fotos/foto-leoReis.PNG" alt="">
+                </div>
+            </div>
+            <div id="modalZilla">
+                <h2>Eduardo</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Meia-esquerda</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>3</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Bolas aéreas e divididas.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-leoReis.PNG" alt="">
+                </div>
+            </div>
+            <div id="modalRonaldinho">
+                <h2>Lucas</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Meia-esquerda</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>3</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Bolas aéreas e divididas.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-leoReis.PNG" alt="">
+                </div>
+            </div>
+            <div id="modalRaulMazarim">
+                <h2>Raul Mazarim</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Meia armador</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>3</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Bolas aéreas e divididas.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-raulMazarim.PNG" alt="">
+                </div>
+            </div>
+            <div id="modalAsafe">
+                <h2>Charles Asafe</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Meia armador</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>3</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Bolas aéreas e divididas.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-leoReis.PNG" alt="">
+                </div>
+            </div>
+            <div id="modalLuizAndrade">
+                <h2>Luiz Andrade</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Atacante</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>3</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Bolas aéreas e divididas.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-leoReis.PNG" alt="">
+                </div>
+            </div>
+            <div id="modalMik">
+                <h2>Maurício Paiva</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Atacante</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>3</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Bolas aéreas e divididas.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-leoReis.PNG" alt="">
+                </div>
+            </div>
+            <div id="modalJhon">
+                <h2>Jhonatas</h2>
+                <div class="conteudo-modal">
+                    <div class="info-modal">
+                        <p><strong>POSIÇÃO: </strong>Atacante</p>
+                        <p><strong>JOGOS: </strong>12</p>
+                        <p><strong>GOLS: </strong> 32</p>
+                        <p><strong>ASSISTÊNCIAS: </strong>16</p>
+                        <p><strong>TÍTULOS INDIVIDUAIS: </strong>3</p>
+                        <p><strong>CARACTERÍSTICAS: </strong>Bolas aéreas e divididas.</p>
+                        <p><strong>INSTA: </strong><a href="">@juliocesar</a></p>
+                    </div>
+                    <img src="./imagens/foto-leoReis.PNG" alt="">
+                </div>
+            </div>
+
         </div>
     </div>
     <!-- PERFIL/MODAL-->

@@ -105,6 +105,25 @@ function closeMobile() {
 
 let kardeck = document.getElementById('modalKardeck');
 let edwardblake = document.getElementById('modalEdwardBlake');
+let gabrielBS18 = document.getElementById('modalGabrielbs18');
+let suricato = document.getElementById('modalSuricato');
+let amzol = document.getElementById('modalAmzol');
+let sandrojr = document.getElementById('modalSandrojr');
+let cicco = document.getElementById('modalCicco');
+let rai = document.getElementById('modalRai');
+let yan = document.getElementById('modalYan');
+let DL = document.getElementById('modalDL');
+let bruninho = document.getElementById('modalBruninho');
+let leoReis = document.getElementById('modalLeoReis');
+let zilla = document.getElementById('modalZilla');
+let ronaldinho = document.getElementById('modalRonaldinho');
+let raulMazarim = document.getElementById('modalRaulMazarim');
+let asafe = document.getElementById('modalAsafe');
+let luizAndrade = document.getElementById('modalLuizAndrade');
+let mik = document.getElementById('modalMik');
+let jhon = document.getElementById('modalJhon');
+
+
 
 function abrirModal(element) {
 
@@ -115,6 +134,57 @@ function abrirModal(element) {
     }
     else if (modalClick == "button-edwardblake") {
         edwardblake.style.display = "flex";
+    }
+    else if (modalClick == "button-gabrielbs18") {
+        gabrielBS18.style.display = "flex";
+    }
+    else if (modalClick == "button-suricato") {
+        suricato.style.display = "flex";
+    }
+    else if (modalClick == "button-amzol") {
+        amzol.style.display = "flex";
+    }
+    else if (modalClick == "button-sandrojr") {
+        sandrojr.style.display = "flex";
+    }
+    else if (modalClick == "button-cicco") {
+        cicco.style.display = "flex";
+    }
+    else if (modalClick == "button-rai") {
+        rai.style.display = "flex";
+    }
+    else if (modalClick == "button-yan") {
+        yan.style.display = "flex";
+    }
+    else if (modalClick == "button-DL") {
+        DL.style.display = "flex";
+    }
+    else if (modalClick == "button-bruninho") {
+        bruninho.style.display = "flex";
+    }
+    else if (modalClick == "button-leoReis") {
+        leoReis.style.display = "flex";
+    }
+    else if (modalClick == "button-zilla") {
+        zilla.style.display = "flex";
+    }
+    else if (modalClick == "button-ronaldinho") {
+        ronaldinho.style.display = "flex";
+    }
+    else if (modalClick == "button-raulMazarim") {
+        raulMazarim.style.display = "flex";
+    }
+    else if (modalClick == "button-asafe") {
+        asafe.style.display = "flex";
+    }
+    else if (modalClick == "button-luizAndrade") {
+        luizAndrade.style.display = "flex";
+    }
+    else if (modalClick == "button-mik") {
+        mik.style.display = "flex";
+    }
+    else if (modalClick == "button-jhon") {
+        jhon.style.display = "flex";
     }
 
 
@@ -130,7 +200,23 @@ function fecharModal() {
 
     kardeck.style.display = "none";
     edwardblake.style.display = "none";
+    gabrielBS18.style.display = "none";
+    suricato.style.display = "none";
+    amzol.style.display = "none";
+    sandrojr.style.display = "none";
+    cicco.style.display = "none";
+    rai.style.display = "none";
+    yan.style.display = "none";
+    DL.style.display = "none";
+    bruninho.style.display = "none";
+    leoReis.style.display = "none";
+    zilla.style.display = "none";
+    ronaldinho.style.display = "none";
+    raulMazarim.style.display = "none";
+    asafe.style.display = "none";
+    luizAndrade.style.display = "none";
+    mik.style.display = "none";
+    jhon.style.display = "none";
 }
-
 
 // MODAL/PERFIL DOS JOGADORES
