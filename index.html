@@ -176,11 +176,13 @@
                         <th>Defesas</th>
                     </tr>
                 </thead>
+
+                <!-- Kardeck -->
                 <tbody>
                     <tr>
                         <td>1</td>
                         <td>Goleiro</td>
-                        <td>Kardeck</td>
+                        <td><button class="open-modal" id="button-kardeck" onclick="abrirModal(this)">Kardeck</button></td>
                         <td>12</td>
                         <td>0</td>
                         <td>0</td>
@@ -190,7 +192,7 @@
                     <tr>
                         <td>2</td>
                         <td>Goleiro</td>
-                        <td>Kardeck</td>
+                        <td><button class="open-modal" id="button-edwardblake" onclick="abrirModal(this)">EdwardBlake</button></td>
                         <td>12</td>
                         <td>0</td>
                         <td>0</td>
@@ -382,6 +384,19 @@
         </div>
     </section>
 
+    <!-- PERFIL/MODAL-->
+    <div class="bg-modal" id="modal">
+        <div class="modal">
+            <span class="close" onclick="fecharModal()">&times;</span>
+            <div id="modalKardeck">
+                <img src="./imagens/insta-hover.png" alt="">
+            </div>
+            <div id="modalEdwardBlake">
+                <img src="./imagens/wpp-hover.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- PERFIL/MODAL-->
 
     <!-- Bloco 5-->
     <section id="gallery" class="grid-one section">

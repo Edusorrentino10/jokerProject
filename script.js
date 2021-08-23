@@ -98,3 +98,39 @@ function closeMobile() {
     controlsSlide.style.display = "flex";
     apoiase.style.display = "flex";
 }
+
+
+
+// MODAL/PERFIL DOS JOGADORES
+
+let kardeck = document.getElementById('modalKardeck');
+let edwardblake = document.getElementById('modalEdwardBlake');
+
+function abrirModal(element) {
+
+    let modalClick = element.id;
+
+    if(modalClick == "button-kardeck") {
+        kardeck.style.display = "flex";
+    }
+    else if (modalClick == "button-edwardblake") {
+        edwardblake.style.display = "flex";
+    }
+
+
+
+
+    document.getElementById('modal').style.top = "0";
+}
+
+
+
+function fecharModal() {
+    document.getElementById('modal').style.top = "-100%";
+
+    kardeck.style.display = "none";
+    edwardblake.style.display = "none";
+}
+
+
+// MODAL/PERFIL DOS JOGADORES
