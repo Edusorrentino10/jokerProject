@@ -482,7 +482,7 @@ p {
 
 
 .slide-mb1 {
-    background-image: url(./banner-redesEscudo-teste.jfif);
+    background-image: url(https://c.tenor.com/ZLN5cXjgyJwAAAAd/fifa-pro-clubs.gif);
 }
 
 .slide-mb2 {
@@ -495,6 +495,13 @@ p {
 
 .slide-mb4 {
     background-image: url(https://media.giphy.com/media/YT51r1aYHUYaQ/giphy.gif);
+}
+
+.estatisticas-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 }
 
 
@@ -539,7 +546,7 @@ p {
     .grid, .grid-one-content  {display: grid; grid-template-columns: 1fr; height: 100%;}
     .grid-gallery{grid-template-columns: repeat(2, 1fr);}
     
-
+    .estatisticas-time {flex-direction: column; gap: 4rem;}
 }
 
 
