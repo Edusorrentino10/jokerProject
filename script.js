@@ -104,6 +104,7 @@ function closeMobile() {
 // MODAL/PERFIL DOS JOGADORES
 
 let kardeck = document.getElementById('modalKardeck');
+let aleproven = document.getElementById('modalAleProven');
 let edwardblake = document.getElementById('modalEdwardBlake');
 let gabrielBS18 = document.getElementById('modalGabrielbs18');
 let suricato = document.getElementById('modalSuricato');
@@ -131,6 +132,9 @@ function abrirModal(element) {
 
     if(modalClick == "button-kardeck") {
         kardeck.style.display = "flex";
+    }
+    else if(modalClick == "button-aleproven"){
+        aleproven.style.display = "flex";
     }
     else if (modalClick == "button-edwardblake") {
         edwardblake.style.display = "flex";
@@ -199,6 +203,7 @@ function fecharModal() {
     document.getElementById('modal').style.top = "-1000rem";
 
     kardeck.style.display = "none";
+    aleproven.style.display = "none";
     edwardblake.style.display = "none";
     gabrielBS18.style.display = "none";
     suricato.style.display = "none";

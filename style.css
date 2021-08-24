@@ -561,7 +561,7 @@ table button {
     cursor:default;
 }
 
-#modalKardeck, #modalEdwardBlake, #modalGabrielbs18, #modalSuricato, #modalAmzol, #modalSandrojr, #modalCicco, #modalRai, #modalYan, #modalDL, #modalBruninho, #modalLeoReis, #modalZilla, #modalRonaldinho, #modalRaulMazarim, #modalAsafe, #modalLuizAndrade, #modalMik, #modalJhon  {
+#modalKardeck, #modalEdwardBlake, #modalGabrielbs18, #modalSuricato, #modalAmzol, #modalSandrojr, #modalCicco, #modalRai, #modalYan, #modalDL, #modalBruninho, #modalLeoReis, #modalZilla, #modalRonaldinho, #modalRaulMazarim, #modalAsafe, #modalLuizAndrade, #modalMik, #modalJhon, #modalAleProven  {
     display: none;
     justify-content: center;
     flex-direction: column;
