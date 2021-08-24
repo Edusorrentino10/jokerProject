@@ -196,7 +196,7 @@ function abrirModal(element) {
 
 
 function fecharModal() {
-    document.getElementById('modal').style.top = "-100rem";
+    document.getElementById('modal').style.top = "-1000rem";
 
     kardeck.style.display = "none";
     edwardblake.style.display = "none";
