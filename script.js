@@ -225,3 +225,11 @@ function fecharModal() {
 }
 
 // MODAL/PERFIL DOS JOGADORES
+
+
+
+
+
+
+// APAGAR NOME E EMAIL DEPOIS QUE ENVIAR O FORMULÁRIO
+
