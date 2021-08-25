@@ -135,9 +135,9 @@ header {
 
 
 .slide-item h1 {
-    font-size: 38px;
+    font-size: 40px;
     text-shadow: 3px 3px 0px #1f032c;
-    max-width: 400px;
+    max-width: 550px;
     margin-bottom: 30px;
     text-transform: uppercase;
     font-family: Helvetica, Arial, sans-serif;
@@ -147,9 +147,9 @@ header {
 }
 
 .slide-item h2 {
-    font-size: 16px;
-    max-width: 370px;
-    text-transform: uppercase;
+    font-size: 22px;
+    max-width: 670px;
+    text-transform:none;
 }
 
 .banner-button {
@@ -507,7 +507,7 @@ p {
 
 
 .slide-mb1 {
-    background-image: url(https://thumbs.gfycat.com/CorruptMemorableKouprey-max-1mb.gif);
+    background-image: url(https://c.tenor.com/ZLN5cXjgyJwAAAAd/fifa-pro-clubs.gif);
 }
 
 .slide-mb2 {
@@ -862,7 +862,6 @@ footer h2 {
         flex-direction: column;
         justify-content: space-around;
         cursor: pointer;
-        
     }
     .menu-mobile-content{
         position: absolute;
@@ -1037,6 +1036,14 @@ footer h2 {
     .slide-mb4 {
         background-image: url(https://media.giphy.com/media/YT51r1aYHUYaQ/giphy.gif);
     }
+
+    .slide-item h1 {
+        max-width: 550px;
+    }
+    
+    .slide-item h2 {
+        max-width: 585px;
+    }
 }
 
 
@@ -1068,12 +1075,19 @@ footer h2 {
         margin-bottom: 12%;
     }
     
+    .slide-item h1 {
+        max-width: 340px;
+    }
+    
+    .slide-item h2 {
+        max-width: 380px;
+    }
 }
 
 
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
 
     .nav-item,.nav-list {
         background: tomato;
@@ -1081,5 +1095,9 @@ footer h2 {
     }
     .menu-mobile {
         transform: translateX(1rem);
+    }
+    
+    .slide-item h2 {
+        max-width: 345px;
     }
 }
