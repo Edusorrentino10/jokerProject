@@ -91,7 +91,7 @@ header {
 .slide-width {
     height: 80vh;
     display: flex;
-    transition: ease-in-out 1.3s;
+    transition: ease-in-out 2.3s;
 }
 
 .slide-item {
@@ -511,7 +511,7 @@ p {
 }
 
 .slide-mb2 {
-    background-image: url(https://i.pinimg.com/originals/3d/e4/7a/3de47a405fe9faa79d9e4f055f086e14.gif);
+    background-image: url(./banner-redesEscudo-teste.jfif);
 }
 
 .slide-mb3 {
@@ -603,6 +603,7 @@ hr {
     opacity: 10%;
     color: #cecece;
 }
+
 
 
 
