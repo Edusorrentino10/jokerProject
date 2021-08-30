@@ -91,7 +91,7 @@ header {
 .slide-width {
     height: 80vh;
     display: flex;
-    transition: ease-in-out 1.7s;
+    transition: ease-in-out 1s;
 }
 
 .slide-item {
