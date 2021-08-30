@@ -507,7 +507,7 @@ p {
 
 
 .slide-mb1 {
-    background-image: url(./imagens/bike-banner.jpeg);
+    background-image: url(./imagens/banner-estadio.PNG);
 }
 
 .slide-mb2 {
@@ -520,7 +520,7 @@ p {
 }
 
 .slide-mb4 {
-    background-image: url(https://media.giphy.com/media/YT51r1aYHUYaQ/giphy.gif);
+    background-color: #121214;
 }
 
 .estatisticas-time {
@@ -832,9 +832,6 @@ footer h2 {
 
 
 
-
-
-
 @media only screen and (max-width: 1025px) {
 
     html, body {overflow-x: hidden;}
@@ -1023,7 +1020,7 @@ footer h2 {
 
     
     .slide-mb1 {
-        background-image: url(./imagens/bike-banner.jpeg);
+        background-image: url(./imagens/banner-estadio.PNG);
         
     }
     
@@ -1036,7 +1033,7 @@ footer h2 {
     }
     
     .slide-mb4 {
-        background-image: url(https://media.giphy.com/media/YT51r1aYHUYaQ/giphy.gif);
+        background-color: #121214;
     }
 
     .slide-item h1 {

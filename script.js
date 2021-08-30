@@ -30,7 +30,7 @@ function atualizaMargin() {
 
 }
 
-setInterval(nextSlide, 10000);
+setInterval(nextSlide, 1000000);
 
 
 // Social Medias
