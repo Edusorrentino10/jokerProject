@@ -520,7 +520,8 @@ p {
 }
 
 .slide-mb4 {
-    background-color: #121214;
+    width: 101vw;
+    background-image: url(./imagens/banner4-embreve.PNG);
 }
 
 .estatisticas-time {
@@ -1033,7 +1034,7 @@ footer h2 {
     }
     
     .slide-mb4 {
-        background-color: #121214;
+        background-image: url(./imagens/banner4-embreve.PNG);
     }
 
     .slide-item h1 {
