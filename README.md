@@ -15,3 +15,5 @@ Se preferir, também é possível visualizar através do link: <strong>https://j
 <h2 align="center"><img src="./imagens/readme-site-print.png"></h2>
 <br>
 Feito por <a href="https://github.com/Edusorrentino10">Eduardo Sorrentino</a>.
+<br>
+<a href="www.linkedin.com/in/eduardo-sorrentino">Linkedin</a>
