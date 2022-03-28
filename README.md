@@ -10,10 +10,11 @@
 Para rodar o projeto é necessário clonar o repositório e abrir o arquivo index.html no navegador.
 
 ## Link para visualização:
+
 Se preferir, também é possível visualizar através do link: <strong>https://jokersquades.netlify.app</strong>
 <br><br>
 <h2 align="center"><img src="./imagens/readme-site-print.png"></h2>
 <br>
 Feito por <a href="https://github.com/Edusorrentino10">Eduardo Sorrentino</a>.
-<br>
-<a href="www.linkedin.com/in/eduardo-sorrentino">Linkedin</a>
+
+Linkedin: https://linkedin.com/in/eduardo-sorrentino/
